@@ -1,0 +1,1 @@
+This file contains all of the inference log files used to generate the speedup estimate featured in the appendix. ethos_infer.log is partial inference performed using the usual ETHOS-ARES inference methods. The other files are generated using the modified cached and split inference written for this paper.
