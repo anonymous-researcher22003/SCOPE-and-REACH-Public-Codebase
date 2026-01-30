@@ -1,11 +1,4 @@
 # SCOPE and REACH Public Codebase
-
-* Welcome to the public repository for the SCOPE and REACH paper! 
-* This repository includes the necessary code to reproduce the results of the SCOPE and REACH paper. 
-* Each sub-directory contains a separate README file that will outline how to reproduce the results generated in this codebase.
-* The results files necessary to run the notebook files are being submitted to Physionet for publication.
-
-![alt text](https://github.com/anonymous-researcher22003/SCOPE-and-REACH-Public-Codebase/blob/main/SCOPE%20and%20REACH%20Code/figures/flowchart.png](https://anonymous.4open.science/r/SCOPE-and-REACH-Public-Codebase-1185/SCOPE%20and%20REACH%20Code/figures/flowchart.png)
 ```
 SCOPE and REACH Code/                                                                                                                                                                                               
   ├── scripts/                              # Directory containing ETHOS-ARES shell scripts
@@ -34,4 +27,11 @@ SCOPE and REACH Code/
       ├── ethos_infer.log                   # Partially run standard inference log
       └── ethos_M2_ed_4334712_*.log (x32)   # All patient mortality inference run using caching
 ```
+
+![alt text](https://github.com/anonymous-researcher22003/SCOPE-and-REACH-Public-Codebase/blob/main/SCOPE%20and%20REACH%20Code/figures/flowchart.png](https://anonymous.4open.science/r/SCOPE-and-REACH-Public-Codebase-1185/SCOPE%20and%20REACH%20Code/figures/flowchart.png)
+* Welcome to the public repository for the SCOPE and REACH paper! 
+* This repository includes the necessary code to reproduce the results of the SCOPE and REACH paper. 
+* Each sub-directory contains a separate README file that will outline how to reproduce the results generated in this codebase.
+* The results files necessary to run the notebook files are being submitted to Physionet for publication.
+
 
