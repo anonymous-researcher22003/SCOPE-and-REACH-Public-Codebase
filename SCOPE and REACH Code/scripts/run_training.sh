@@ -12,7 +12,7 @@ export OMP_NUM_THREADS=20
 dataset="mimic_ed"
 dataset_name="train"
 
-data_path="/gpfs/data/bbj-lab/users/lsolo/ethos_testing/ethos-ares/data2/tokenized_meds"
+data_path="/gpfs/data/ANON_ORG/users/ANON_USER/ethos_testing/ethos-ares/data2/tokenized_meds"
 clear
 if [[ ! -d $data_path ]]; then
     echo "Dataset directory not found: $data_path"
@@ -48,14 +48,14 @@ pip install \
 
 # Use other tmp dir to avoid /tmp filling up and preserve the cache across the runs
 # Create and use a custom temp directory on GPFS
-export TMPDIR=/gpfs/data/bbj-lab/users/lsolo/tmp/$SLURM_JOB_ID
+export TMPDIR=/gpfs/data/ANON_ORG/users/ANON_USER/tmp/$SLURM_JOB_ID
 mkdir -p $TMPDIR
 export TEMP=$TMPDIR
 export TMP=$TMPDIR
 
 # Also set PyTorch-specific temp directories
 export TORCHINDUCTOR_CACHE_DIR=$TMPDIR/inductor_cache
-export TRITON_CACHE_DIR=/gpfs/data/bbj-lab/users/lsolo/.triton_cache
+export TRITON_CACHE_DIR=/gpfs/data/ANON_ORG/users/ANON_USER/.triton_cache
 mkdir -p $TRITON_CACHE_DIR
 export TORCH_HOME=$TMPDIR/torch_home
 "
