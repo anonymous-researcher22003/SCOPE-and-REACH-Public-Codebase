@@ -1,4 +1,5 @@
 # SCOPE and REACH Public Codebase
+The Markov chain experiments interactive notebook is located [here](https://colab.research.google.com/drive/1PURIj0iZGcZITVx9FsAvqixKn6iF1_CE#scrollTo=yilfxvKE87bK) 
 ```
 SCOPE and REACH Code/                                                                                                                                                                                               
   ├── scripts/                              # Directory containing ETHOS-ARES shell scripts
